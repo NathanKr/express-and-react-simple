@@ -2,15 +2,27 @@
 Simple setup for express as backend and react as frontend
 
 
-<h2>Points of interest</h2>
+<h2>Project structure</h2>
 <ul>
 <li>server resides under server directory</li>
 <li>react app reside under server directory inside client directory which created using create-react-app</li>
+</li>
+</ul>
+
+<h2>Two servers</h2>
+<ul>
 <li>Express server listens locally on port 5000</li>
 <li>React development server listens locally on port 3000</li>
 <li>use npm run dev from server directory to run express and react</li>
 <li>concurrently package is used to run both servers. install from server directory !</li>
 </ul>
+
+<h2>Production ready</h2>
+<ul>
+<li>PORT server/index.js is using also process.env.PORT</li>
+<li>client is using proxy which handles the local server address localhost:500 and make it production ready i.e / . check the client readme</li>
+</ul>
+
 
 <h2>Scripts of package.json inside server directory</h2>
 <table>
