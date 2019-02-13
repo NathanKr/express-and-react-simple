@@ -3,7 +3,7 @@ import "./App.css";
 
 
 class App extends Component {
-  url = "http:/api";
+  url = "/api";
   state = {data : ''};
 
   clickHandler = () => {
