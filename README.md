@@ -14,12 +14,12 @@ Simple setup for express as backend and react as frontend
 <li>Express server listens locally on port 5000</li>
 <li>React development server listens locally on port 3000</li>
 <li>use npm run dev from server directory to run express and react</li>
-<li>concurrently package is used to run both servers. install from server directory !</li>
+<li>concurrently package is used to run both servers. install on server directory !</li>
 </ul>
 
 <h2>Production ready</h2>
 <ul>
-<li>PORT server/index.js is using also process.env.PORT</li>
+<li>server/index.js is using process.env.PORT or the local port 5000</li>
 <li>client is using proxy which handles the local server address localhost:500 and make it production ready i.e / . check the client readme</li>
 </ul>
 
