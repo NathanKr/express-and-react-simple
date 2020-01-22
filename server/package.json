@@ -24,6 +24,6 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
-    "concurrently:wq": "^5.0.2"
+    "concurrently": "^5.0.2"
   }
 }
