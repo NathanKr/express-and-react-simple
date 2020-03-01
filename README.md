@@ -1,5 +1,3 @@
-123
-
 <h2>Introduction</h2>
 Simple setup for express as backend and react as frontend
 
